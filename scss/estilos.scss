@@ -1,0 +1,419 @@
+body{
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    "nav header header header"
+    "nav main main main"
+    "nav section section section"
+    "footer footer footer footer"
+    ;
+}
+/*display*/
+
+/*Celu*/
+@media (min-width:0px) and (max-width: 800px) {
+    
+    body{
+        background-color: white;
+        grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "nav nav nav nav"
+        "section section section section"
+        "footer footer footer footer"
+        ;
+    }
+    /* header, main y nav */
+    nav{
+        font-size: 15px;
+        color: white;
+    }
+
+    .navegador{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .navegador a{
+        color: white;
+        text-decoration: none;
+        
+    }
+    .navegador:hover{
+        box-shadow: 0 0 10px black;
+        transform: scale(1.1);
+    }
+    /* section */
+    section{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        img{
+        
+            height: 150px;
+            width: 300px;
+            border-radius: 15px;
+        }
+        h2{
+            text-decoration:underline rgb(47, 137, 255);
+            
+            
+        }
+    }
+    .caja{
+        margin-top: 10px;
+    }
+
+    .caja:hover{
+        box-shadow: 0 0 30px black;
+    }
+    .caja h3,p{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja p{
+        font-size: 15px;
+    }
+    /* footer */
+    footer{
+        background-color: black;
+        color: white;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    /* excursiones */
+    .categorias h2{ 
+        display: flex;
+        justify-content: center;
+        background-color: greenyellow;
+        color: white;
+    }
+    .categorias{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .categorias{
+        box-shadow: 0 0 30px black;
+    }
+    .caja1 h3,p{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie{
+        margin-top: 50px;
+    }
+    .categorias img{
+        display: flex;
+        height: 100px;
+        width: 200px;
+    }
+    /* Documentos */
+    
+    .doc{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    .caja1{
+        background-color: grey;
+        border-radius: 15px;
+        margin:30px;
+    }
+    .caja1:hover{
+        box-shadow: 0 0 10px black;
+        transform: scale(2,1fr);
+    }
+    
+    /* Quienes somos */
+    
+    .nosotro{
+        background-color: black;
+    }
+    .nosotros{
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-top: 20px;
+    }
+    .nosotros h2{
+        color: white;
+        justify-content: center;
+    }
+    .nosotros p{
+        color: white;
+    }
+    /* register / login */
+    .register{
+        background-color: grey;
+        justify-self: center;
+        align-items: center;
+    }
+    .log{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .register h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Computadora */
+
+@media (min-width: 800px) and (max-width: 1920px) {
+    
+    body{
+        background-color: rgb(255, 255, 255);
+        grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "main main main main"
+        "section section section section"
+        "footer footer footer footer";
+    }
+    /* header, main y nav */
+    nav{
+        font-size: 10px;
+        color: white;
+        
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(47, 137, 255);
+        justify-content: center;
+    }
+
+    .navegador{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+    .navegador a{
+        color: white;
+        text-decoration: none;
+        margin-inline: 40px;
+    }
+    .navegador:hover{
+        box-shadow: 0 0 10px black;
+        transform: scale(1.1);
+    }
+    /* section */
+    section{
+        display: flex;
+        justify-content: center;
+        h2{
+            text-decoration:underline rgb(47, 137, 255);
+        }
+        img{
+            height: 150px;
+            width: 300px;
+            border-radius: 15px;
+        }
+    }
+    
+    .subtitulo{
+        position: absolute;
+    }
+    
+
+    main img{
+        width: 1920px;
+        height: 600px;
+    }
+    .caja{
+        
+        margin-top: 20px;
+    }
+
+    .caja:hover{
+        box-shadow: 0 0 30px black;
+    }
+    .caja h3,p{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja p{
+        font-size: 15px;
+    }
+    /* footer */
+    footer{
+        background-color: black;
+        color: white;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    /* excursiones */
+    .categorias h2{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: greenyellow;
+        color: white;
+    }
+    .categorias{
+        margin-top: 10px;
+    }
+
+    .categorias{
+        box-shadow: 0 0 30px black;
+    }
+    .categorias img{
+        display: flex;
+        height: 100px;
+        width: 200px;
+    }
+    /* Documentos */
+    .doc{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-self: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    .caja1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        border-radius: 15px;
+        margin:30px;
+        height: 80px;
+        width: 300px;
+        margin-top: 60px;
+    }
+    .caja1:hover{
+        box-shadow: 0 0 10px black;
+        transform: scale(1,1);
+    }
+
+
+    /* Quienes somos */
+    .nosotro{
+        background-color: black;
+    }
+    .nosotros{
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-top: 120px;
+    }
+    .nosotros h2{
+        color: white;
+        justify-content: center;
+    }
+    .nosotros p{
+        color: white;
+    }
+    /* Register/Login */
+    .register{
+        background-color: grey;
+        align-items: center;
+        height: 500px;
+    }
+    .boton{
+        margin-left: 10px;
+        height: 30px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .log{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        flex-direction: row;
+        justify-items: center;
+    }
+    .register h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*header*/
+header{
+    grid-area: header;
+    background-color:greenyellow;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a:visited{
+        color: white;
+    }
+    h1{
+        color: white;
+        text-decoration: none;
+    }
+} 
+/*Navegador*/
+nav{
+    grid-area: nav;
+    
+}
+.navegador{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    background-color: rgb(47, 137, 255);  
+    
+}
+.navegador a{
+    color: white;
+}
+/* .navegador a:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+} */
+
+/*Main*/
+main{
+    grid-area: main;
+}
+
+/*Section*/
+section{
+    grid-area: section;
+    display: flex;
+    flex-wrap:wrap;
+    border: 10px;
+    border-color: black;
+}
+
+.caja{
+    background-color: greenyellow;
+    height: 300px;
+    width:300px;
+    border-radius: 15px;
+}
+.caja:hover{
+    box-shadow: 10px black;
+}
+
+/*footer*/
+footer{
+    grid-area: footer;
+}

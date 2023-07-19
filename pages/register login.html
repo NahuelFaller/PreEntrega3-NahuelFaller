@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register/Log in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=100075924446470" target="_blank"><h1>LAPA TURISMO</h1></a>
+        </div>
+    </header>
+    <nav class="docnav">
+        <div class="navegador">
+            <a href="../index.html">Inicio</a>
+        </div>
+        <div class="navegador">
+            <a href="../pages/excursiones.html">Excursiones</a>
+        </div>
+        <div class="navegador">
+            <a href="../pages/documentos.html">Documentos</a>
+        </div>
+        <div class="navegador">
+            <a href="../pages/quienes somos.html">Quienes somos?</a>
+        </div>
+        <div class="navegador">
+            <a href="../pages/register login.html">Register o Log In</a>
+        </div>
+    </nav>
+    <section class="register">
+        
+        <form class="log" action="">
+            <h2>Register</h2>
+            <div>
+                <label for="Nombre" placeholder="ingrese su nombre">Nombre y Apellido</label>
+                <input type="texto" name="nombre" required></imput>
+            </div>
+            <div>
+                <label for="Numero" placeholder="ingrese su numero">Telefono</label>
+                <input type="number" name="numero" required></imput>
+            </div>
+            <div>
+                <label for="Email" placeholder="ingrese su Email">Email</label>
+                <input type="email" name="email" required></imput>
+            </div>
+            <div>
+                <label for="contraseña" placeholder="crear contraseña"> Contraseña</label>
+                <input type="password" name="contraseña" required></imput>
+            </div>
+            <div>
+                <label for="contraseña" placeholder="confirmar contraseña">Confirmar Contraseña</label>
+                <input type="password" name="contraseña" required></imput>
+            </div>
+            <input class="boton" type="button" value="registrarse">
+        </form>
+        
+
+        <form class="log" action="">
+            <h2>Log In</h2>
+            <div>
+                <label for="Email" placeholder="ingrese su Email">Email</label>
+                <input type="email" name="email" required></imput>
+            </div>
+            <div>
+                <label for="contraseña" placeholder="contraseña"> Contraseña</label>
+                <input type="password" name="contraseña" required></imput>
+            </div>
+            
+            <input class="boton" type="button" value="log in">
+        </form>
+    </section>
+    <footer class="pie">
+        <div>
+            <span>
+                Puede comunicarse al 092006321 para preguntar sobre los viajes. <br>
+                Tenemos un horario de consulta que va desde <br>
+                lunes a viernes de 09:00 a 18:00 <br>
+                sabado y domingo de 09:00 a 13:00<br>
+                Muchas Gracias!!
+            </span>
+    </div>
+    </footer>
+</body>
+</html>
