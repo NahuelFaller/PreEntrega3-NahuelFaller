@@ -73,7 +73,7 @@ body {
   .categorias h2 {
     display: flex;
     justify-content: center;
-    background-color: greenyellow;
+    background-color: rgb(69, 219, 5);
     color: white;
   }
   .categorias {
@@ -160,7 +160,7 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    background-color: rgb(47, 137, 255);
+    background-color: rgb(0, 64, 147);
     justify-content: center;
   }
   .navegador {
@@ -183,7 +183,9 @@ body {
     justify-content: center;
   }
   section h2 {
-    text-decoration: underline rgb(47, 137, 255);
+    text-decoration: underline rgb(0, 64, 147);
+    display: flex;
+    
   }
   section img {
     height: 150px;
@@ -226,7 +228,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: greenyellow;
+    background-color: rgb(69, 219, 5);
     color: white;
   }
   .categorias {
@@ -311,7 +313,7 @@ body {
 /*header*/
 header {
   grid-area: header;
-  background-color: greenyellow;
+  background-color:rgb(69, 219, 5);
   color: white;
   display: flex;
   align-items: center;
@@ -334,7 +336,7 @@ nav {
   display: flex;
   flex-direction: column;
   font-size: 30px;
-  background-color: rgb(47, 137, 255);
+  background-color: rgb(0, 64, 147);
 }
 
 .navegador a {
@@ -360,7 +362,7 @@ section {
 }
 
 .caja {
-  background-color: greenyellow;
+  background-color: rgb(69, 219, 5);
   height: 300px;
   width: 300px;
   border-radius: 15px;

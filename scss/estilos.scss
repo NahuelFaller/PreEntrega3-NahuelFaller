@@ -57,7 +57,7 @@ body{
             border-radius: 15px;
         }
         h2{
-            text-decoration:underline rgb(47, 137, 255);
+            text-decoration:underline rgb(0, 64, 147);
             
             
         }
@@ -156,6 +156,11 @@ body{
     .nosotros p{
         color: white;
     }
+    
+    .camionetas{
+        display: flex;
+        flex-direction: row;
+    }
     /* register / login */
     .register{
         background-color: grey;
@@ -193,7 +198,7 @@ body{
         
         display: flex;
         flex-direction: row;
-        background-color: rgb(47, 137, 255);
+        background-color: rgb(0, 64, 147);
         justify-content: center;
     }
 
@@ -216,7 +221,7 @@ body{
         display: flex;
         justify-content: center;
         h2{
-            text-decoration:underline rgb(47, 137, 255);
+            text-decoration:underline rgb(0, 64, 147);
         }
         img{
             height: 150px;
@@ -378,7 +383,7 @@ nav{
     display: flex;
     flex-direction: column;
     font-size: 30px;
-    background-color: rgb(47, 137, 255);  
+    background-color: rgb(0, 64, 147);  
     
 }
 .navegador a{
