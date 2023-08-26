@@ -137,15 +137,17 @@ body {
     background-color: grey;
     justify-self: center;
     align-items: center;
+    background-size:contain;
   }
-  .log {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  .register h2 {
+  .registrarse{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+  }
+  .log{
+    display: flex;
+    flex-direction: column;
+    
   }
 }
 /* Computadora */
@@ -219,7 +221,7 @@ body {
   footer {
     background-color: black;
     color: white;
-    margin-top: 15px;
+    height: max-content;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -289,27 +291,27 @@ body {
   .register {
     background-color: grey;
     align-items: center;
-    height: 500px;
+    
   }
+  
   .boton {
     margin-left: 10px;
-    height: 30px;
-    width: 80px;
     display: flex;
     justify-content: center;
   }
-  .log {
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    flex-direction: row;
-    justify-items: center;
-  }
-  .register h2 {
+
+  .registrarse{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
   }
+  .log{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+  
+  
 }
 /*header*/
 header {
